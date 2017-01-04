@@ -1,0 +1,16 @@
+PODS:
+  - SuperSimpleMapper (0.1.0)
+
+DEPENDENCIES:
+  - SuperSimpleMapper (from `../`)
+
+EXTERNAL SOURCES:
+  SuperSimpleMapper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SuperSimpleMapper: 51345d72356f4a066870f4c650711dfdb4f92dd4
+
+PODFILE CHECKSUM: 1892b79ff82c1e24c335b44c4f45c8065504235b
+
+COCOAPODS: 1.1.1

@@ -1,22 +1,23 @@
 //
 //  Mapper.swift
+//  Pods
 //
-//  Created by Frograin on 21/05/15.
-//  Copyright (c) 2015 Frograin. All rights reserved.
+//  Created by Frograin on 04/01/2017.
+//
 //
 
 import Foundation
 
-class Mapper {
+public class Mapper {
     var mappings:Array<AnyObject>
     
-    class func createMap<T, U>(map:(T) -> U) {
+    public class func createMap<T, U>(map: @escaping (T) -> U) {
         let mapper:Mapper = Mapper.sharedInstance
         let newMap = Map<T, U>(map: map)
         mapper.mappings.append(newMap)
     }
     
-    class func map<T, U>(source: T) -> U? {
+    public class func map<T, U>(source: T) -> U? {
         let mapper = Mapper.sharedInstance
         
         let target_instance = Map<T, U>()
@@ -33,28 +34,17 @@ class Mapper {
         return nil
     }
     
+    private static var sharedInstance: Mapper = Mapper()
+    
     private init() {
         self.mappings = Array<AnyObject>()
     }
-    
-    class var sharedInstance: Mapper {
-        struct Static {
-            static var instance: Mapper?
-            static var token: dispatch_once_t = 0
-        }
-        
-        dispatch_once(&Static.token) {
-            Static.instance = Mapper()
-        }
-        
-        return Static.instance!
-    }
 }
 
-class Map<T, U> {
-    private (set) var map:(T -> U)?
+fileprivate class Map<T, U> {
+    private (set) var map: ((T) -> U)?
     private (set) var mapInstances:((T, U) -> Void)?
-    init(map:(T) -> U){
+    init(map: @escaping (T) -> U){
         self.map = map
     }
     

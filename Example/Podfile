@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SuperSimpleMapper_Tests' do
+  pod 'SuperSimpleMapper', :path => '../'
+  
+  
+end

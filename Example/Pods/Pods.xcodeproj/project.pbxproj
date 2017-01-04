@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		066D552049B8B56FC6DA6A191B3972F1 /* SuperSimpleMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FB51016511AE2D2B7E246ED28C0F65 /* SuperSimpleMapper-dummy.m */; };
+		0B4A9A75C3E535BDFA644D3A58FAF564 /* SuperSimpleMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33D2091C72E6FE37BBCC2D1ADF597999 /* SuperSimpleMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F55EB785B6ED6B95D3458BF5FCEE26B /* Pods-SuperSimpleMapper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B904E721ED7258490E144606B1A2BF34 /* Pods-SuperSimpleMapper_Tests-dummy.m */; };
+		9DC0E7DB9A193832B553BE50F10739A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A6574E0B6F009DBE8B1C2CCEE945DF60 /* Pods-SuperSimpleMapper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0CFCD2F85AF9A612496D2C734518D1 /* Pods-SuperSimpleMapper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB54074FEFB02C833E1F645836BA28B7 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D834FDAC3EE5019F43C55E16F77EB886 /* Mapper.swift */; };
+		EF9521A6EB967AFFFD296F605578E869 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C6838A45B6810DC5AE56E925F121DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC701D7132D6D1D3A8515E1297D3993;
+			remoteInfo = SuperSimpleMapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2180795DE8AEAA7CD5D2080B6F9410AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C4553971B68350B7AF1395BFE32A851 /* SuperSimpleMapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SuperSimpleMapper.xcconfig; sourceTree = "<group>"; };
+		32D28813F284E2AE0605A3C22FB34A68 /* SuperSimpleMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SuperSimpleMapper.modulemap; sourceTree = "<group>"; };
+		33D2091C72E6FE37BBCC2D1ADF597999 /* SuperSimpleMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperSimpleMapper-umbrella.h"; sourceTree = "<group>"; };
+		41B7344BFC9A6B0F1E2DB4056D977D03 /* SuperSimpleMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SuperSimpleMapper.framework; path = SuperSimpleMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		540EA3EE963488C61D1E7BE4BBD883AF /* Pods-SuperSimpleMapper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperSimpleMapper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B0CFCD2F85AF9A612496D2C734518D1 /* Pods-SuperSimpleMapper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SuperSimpleMapper_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8029B70FAEF7FADC07C53D11DB2B2ED0 /* SuperSimpleMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperSimpleMapper-prefix.pch"; sourceTree = "<group>"; };
+		8517A29C89690598BC044F98F3FC6913 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A900AA2CF0C3311480CA540DDBCD9A7F /* Pods-SuperSimpleMapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperSimpleMapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B09EF8D58F36EEF62BBC3F12D7BF9A34 /* Pods_SuperSimpleMapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SuperSimpleMapper_Tests.framework; path = "Pods-SuperSimpleMapper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B904E721ED7258490E144606B1A2BF34 /* Pods-SuperSimpleMapper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SuperSimpleMapper_Tests-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFCD451F04D8C14170C66ACDF842BCD0 /* Pods-SuperSimpleMapper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SuperSimpleMapper_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D2854C8C59AB2C576BE3B6B1EBD9578A /* Pods-SuperSimpleMapper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SuperSimpleMapper_Tests-resources.sh"; sourceTree = "<group>"; };
+		D834FDAC3EE5019F43C55E16F77EB886 /* Mapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		E4FB51016511AE2D2B7E246ED28C0F65 /* SuperSimpleMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SuperSimpleMapper-dummy.m"; sourceTree = "<group>"; };
+		F05879331709BFE2012AA3F70E0F14D2 /* Pods-SuperSimpleMapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperSimpleMapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F710E3F5933FC48CA40D51047A33A264 /* Pods-SuperSimpleMapper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SuperSimpleMapper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F77F9E6348808D8E4A76DF8D0C6A011F /* Pods-SuperSimpleMapper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SuperSimpleMapper_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		221CF2916413223413367D108E94E449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9521A6EB967AFFFD296F605578E869 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCE01A3A835737DBE682261FDB352C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC0E7DB9A193832B553BE50F10739A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		282D446475BDDC6CAC4BCA591161C536 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B09EF8D58F36EEF62BBC3F12D7BF9A34 /* Pods_SuperSimpleMapper_Tests.framework */,
+				41B7344BFC9A6B0F1E2DB4056D977D03 /* SuperSimpleMapper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CA4218F0F2655A0E1D753D18F6F8866 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D834FDAC3EE5019F43C55E16F77EB886 /* Mapper.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7947B3DA3C75A9460C30A08FAC3AEB05 /* Pods-SuperSimpleMapper_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8517A29C89690598BC044F98F3FC6913 /* Info.plist */,
+				F77F9E6348808D8E4A76DF8D0C6A011F /* Pods-SuperSimpleMapper_Tests.modulemap */,
+				F710E3F5933FC48CA40D51047A33A264 /* Pods-SuperSimpleMapper_Tests-acknowledgements.markdown */,
+				540EA3EE963488C61D1E7BE4BBD883AF /* Pods-SuperSimpleMapper_Tests-acknowledgements.plist */,
+				B904E721ED7258490E144606B1A2BF34 /* Pods-SuperSimpleMapper_Tests-dummy.m */,
+				CFCD451F04D8C14170C66ACDF842BCD0 /* Pods-SuperSimpleMapper_Tests-frameworks.sh */,
+				D2854C8C59AB2C576BE3B6B1EBD9578A /* Pods-SuperSimpleMapper_Tests-resources.sh */,
+				5B0CFCD2F85AF9A612496D2C734518D1 /* Pods-SuperSimpleMapper_Tests-umbrella.h */,
+				A900AA2CF0C3311480CA540DDBCD9A7F /* Pods-SuperSimpleMapper_Tests.debug.xcconfig */,
+				F05879331709BFE2012AA3F70E0F14D2 /* Pods-SuperSimpleMapper_Tests.release.xcconfig */,
+			);
+			name = "Pods-SuperSimpleMapper_Tests";
+			path = "Target Support Files/Pods-SuperSimpleMapper_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E2CBAFE3ECFE5A671C81342CB9137272 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				282D446475BDDC6CAC4BCA591161C536 /* Products */,
+				DA1A3770CFC7E2792DC52057B4C5FA7B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A64A64BB0320D1FF5DC0D77626B3EEF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2180795DE8AEAA7CD5D2080B6F9410AE /* Info.plist */,
+				32D28813F284E2AE0605A3C22FB34A68 /* SuperSimpleMapper.modulemap */,
+				2C4553971B68350B7AF1395BFE32A851 /* SuperSimpleMapper.xcconfig */,
+				E4FB51016511AE2D2B7E246ED28C0F65 /* SuperSimpleMapper-dummy.m */,
+				8029B70FAEF7FADC07C53D11DB2B2ED0 /* SuperSimpleMapper-prefix.pch */,
+				33D2091C72E6FE37BBCC2D1ADF597999 /* SuperSimpleMapper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SuperSimpleMapper";
+			sourceTree = "<group>";
+		};
+		BB20BEC3B8C21E1676623CA2F69AE919 /* SuperSimpleMapper */ = {
+			isa = PBXGroup;
+			children = (
+				FF514D84F3751CDE126FC211E446B1B4 /* SuperSimpleMapper */,
+				8A64A64BB0320D1FF5DC0D77626B3EEF /* Support Files */,
+			);
+			name = SuperSimpleMapper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA1A3770CFC7E2792DC52057B4C5FA7B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7947B3DA3C75A9460C30A08FAC3AEB05 /* Pods-SuperSimpleMapper_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E2CBAFE3ECFE5A671C81342CB9137272 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB20BEC3B8C21E1676623CA2F69AE919 /* SuperSimpleMapper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FF514D84F3751CDE126FC211E446B1B4 /* SuperSimpleMapper */ = {
+			isa = PBXGroup;
+			children = (
+				4CA4218F0F2655A0E1D753D18F6F8866 /* Classes */,
+			);
+			name = SuperSimpleMapper;
+			path = SuperSimpleMapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4A6132C3092997130FD8D19F90482FEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6574E0B6F009DBE8B1C2CCEE945DF60 /* Pods-SuperSimpleMapper_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98074D1E9A1E85EBDB1D85FE69C2532F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4A9A75C3E535BDFA644D3A58FAF564 /* SuperSimpleMapper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2AC701D7132D6D1D3A8515E1297D3993 /* SuperSimpleMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 158060ADE19A4A264D323B7EE6446F12 /* Build configuration list for PBXNativeTarget "SuperSimpleMapper" */;
+			buildPhases = (
+				DE61253D765889CC82B1272ED9F09E8D /* Sources */,
+				EBCE01A3A835737DBE682261FDB352C5 /* Frameworks */,
+				98074D1E9A1E85EBDB1D85FE69C2532F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperSimpleMapper;
+			productName = SuperSimpleMapper;
+			productReference = 41B7344BFC9A6B0F1E2DB4056D977D03 /* SuperSimpleMapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C69272C996E1EE4958601DCB390E3AD4 /* Pods-SuperSimpleMapper_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29482C6661CAA098BC8F5EA7E3C8C77F /* Build configuration list for PBXNativeTarget "Pods-SuperSimpleMapper_Tests" */;
+			buildPhases = (
+				FD22A75E85623365ED2B0D931561B1DB /* Sources */,
+				221CF2916413223413367D108E94E449 /* Frameworks */,
+				4A6132C3092997130FD8D19F90482FEB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21ECE05DCAAB23B0A746BACFD86FBC79 /* PBXTargetDependency */,
+			);
+			name = "Pods-SuperSimpleMapper_Tests";
+			productName = "Pods-SuperSimpleMapper_Tests";
+			productReference = B09EF8D58F36EEF62BBC3F12D7BF9A34 /* Pods_SuperSimpleMapper_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 282D446475BDDC6CAC4BCA591161C536 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C69272C996E1EE4958601DCB390E3AD4 /* Pods-SuperSimpleMapper_Tests */,
+				2AC701D7132D6D1D3A8515E1297D3993 /* SuperSimpleMapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE61253D765889CC82B1272ED9F09E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB54074FEFB02C833E1F645836BA28B7 /* Mapper.swift in Sources */,
+				066D552049B8B56FC6DA6A191B3972F1 /* SuperSimpleMapper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD22A75E85623365ED2B0D931561B1DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F55EB785B6ED6B95D3458BF5FCEE26B /* Pods-SuperSimpleMapper_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21ECE05DCAAB23B0A746BACFD86FBC79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SuperSimpleMapper;
+			target = 2AC701D7132D6D1D3A8515E1297D3993 /* SuperSimpleMapper */;
+			targetProxy = 7C6838A45B6810DC5AE56E925F121DC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		78E36FFC98A9D56FF0F56B94056B4D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C4553971B68350B7AF1395BFE32A851 /* SuperSimpleMapper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SuperSimpleMapper/SuperSimpleMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SuperSimpleMapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SuperSimpleMapper/SuperSimpleMapper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SuperSimpleMapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8803EE2892F37495239FCE5ECF88BB1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C4553971B68350B7AF1395BFE32A851 /* SuperSimpleMapper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SuperSimpleMapper/SuperSimpleMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SuperSimpleMapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SuperSimpleMapper/SuperSimpleMapper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SuperSimpleMapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B7A1EF7471049CF5DC32C630B45CF468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F05879331709BFE2012AA3F70E0F14D2 /* Pods-SuperSimpleMapper_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SuperSimpleMapper_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SuperSimpleMapper_Tests/Pods-SuperSimpleMapper_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SuperSimpleMapper_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E5258774FD07FE0F837309C2EFF2FF4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A900AA2CF0C3311480CA540DDBCD9A7F /* Pods-SuperSimpleMapper_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SuperSimpleMapper_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SuperSimpleMapper_Tests/Pods-SuperSimpleMapper_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SuperSimpleMapper_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		158060ADE19A4A264D323B7EE6446F12 /* Build configuration list for PBXNativeTarget "SuperSimpleMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8803EE2892F37495239FCE5ECF88BB1B /* Debug */,
+				78E36FFC98A9D56FF0F56B94056B4D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29482C6661CAA098BC8F5EA7E3C8C77F /* Build configuration list for PBXNativeTarget "Pods-SuperSimpleMapper_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5258774FD07FE0F837309C2EFF2FF4F /* Debug */,
+				B7A1EF7471049CF5DC32C630B45CF468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

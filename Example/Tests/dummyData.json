@@ -1,0 +1,14 @@
+{
+    "post_title": "Post title",
+    "like_count": 10,
+    "post_comments": [
+         {
+             "comment_author": "comment author 1",
+             "comment_text": "this is the comment 1"
+         },
+         {
+             "comment_author": "comment author 2",
+             "comment_text": "this is the comment 2"
+         }
+     ]
+}

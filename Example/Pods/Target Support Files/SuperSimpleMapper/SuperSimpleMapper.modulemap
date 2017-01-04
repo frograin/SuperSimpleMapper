@@ -1,0 +1,6 @@
+framework module SuperSimpleMapper {
+  umbrella header "SuperSimpleMapper-umbrella.h"
+
+  export *
+  module * { export * }
+}
