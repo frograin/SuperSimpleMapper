@@ -17,7 +17,7 @@ This is just a simple utility to map object of one type to object of another typ
   s.homepage         = 'https://github.com/frograin/SuperSimpleMapper'
   s.license          = 'MIT'
   s.author           = { "FrogRain" => "info@frograin.com" }
-  s.source           = { :git => "https://github.com/frograin/FluidValidator.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/frograin/SuperSimpleMapper.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
   s.source_files = 'SuperSimpleMapper/Classes/**/*'
