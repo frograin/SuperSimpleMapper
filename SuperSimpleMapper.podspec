@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SuperSimpleMapper'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Very simple object mapper'
   s.description      = <<-DESC
 This is just a simple utility to map object of one type to object of another type. Useful if you are using an ORM and feel the need to map to plain objects your ORM objects to prevent complex objects polluting all layers of your app. It also works as json mapper but there's lot's of better solutions for that purpose.

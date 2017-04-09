@@ -25,10 +25,11 @@ class Tests: XCTestCase {
     
     func testMapPost() {
         // This is an example of a functional test case.
-        Mapper.createMap { (post: Post) -> String in
+        let mapper = Mapper()
+        mapper.createMap { (post: Post) -> String in
             "title: \(post.title), comments count: \(post.comments.count)"
         }
-        if let result = Mapper.map(source: Post()) as String? {
+        if let result = try? mapper.map(source: Post()) as String {
             XCTAssertTrue(true, "mapping succeded - \(result)")
         }else {
             XCTAssertFalse(true, "mapping failed")
@@ -37,14 +38,15 @@ class Tests: XCTestCase {
     
     func testMapPostComments() {
         // This is an example of a functional test case.
-        Mapper.createMap { (jsonComment: Dictionary<String, Any>) -> Comment in
+        let mapper = Mapper()
+        mapper.createMap { (jsonComment: Dictionary<String, Any>) -> Comment in
             let comment = Comment()
             comment.author = jsonComment["comment_author"] as! String
             comment.text = jsonComment["comment_text"] as! String
             return comment
         }
         
-        Mapper.createMap { (jsonPost: Dictionary<String, Any>) -> Post in
+        mapper.createMap { (jsonPost: Dictionary<String, Any>) -> Post in
             let post = Post()
             post.title = jsonPost["post_title"] as! String
             post.like = jsonPost["like_count"] as! Int
@@ -53,7 +55,7 @@ class Tests: XCTestCase {
             }
             
             post.comments = comments.flatMap({ (commentDict) -> Comment? in
-                Mapper.map(source: commentDict)
+                try? mapper.map(source: commentDict)
             })
             
             return post
@@ -61,7 +63,7 @@ class Tests: XCTestCase {
         
         let jsonDict = loadData()
         
-        if let result = Mapper.map(source: jsonDict) as Post? {
+        if let result = try? mapper.map(source: jsonDict) as Post {
             XCTAssertTrue(true, "mapping succeded - \(result)")
         }else {
             XCTAssertFalse(true, "mapping failed")
@@ -69,20 +71,21 @@ class Tests: XCTestCase {
     }
     
     func testMapComplexCommentToComment() {
-        Mapper.createMap { (complexComment: ComplextComment) -> Comment in
+        let mapper = Mapper()
+        mapper.createMap { (complexComment: ComplextComment) -> Comment in
             let comment = Comment()
             comment.author = complexComment.author
             comment.text = complexComment.text
             return comment
         }
-        Mapper.createMap { (post: Post) -> Comment in
+        mapper.createMap { (post: Post) -> Comment in
             let comment = Comment()
             comment.author = "Test"
             comment.text = post.title
             return comment
         }
         
-        if let result = Mapper.map(source: ComplextComment()) as Comment? {
+        if let result = try? mapper.map(source: ComplextComment()) as Comment {
             XCTAssertTrue(true, "mapping succeded - \(result)")
         }else {
             XCTAssertFalse(true, "mapping failed")
